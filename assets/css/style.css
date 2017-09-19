@@ -237,12 +237,16 @@ section {
   }
   
   .btn {
-    width: 60%;
+    width: 30%;
     padding: 10px 0px;
     display: block;
     font: 0.8em "open sansbold";
     margin: 20px auto 20px auto;
     text-align: center;
+  }
+  
+  .gallery__btn {
+    width: 50%;
   }
   
   .banner {
@@ -321,7 +325,7 @@ section {
   }
   
   .btn {
-    width: 75%;
+    width: 40%;
     display: block;
     padding: 10px 25px;
     font: 0.8em "open sansbold";
@@ -368,6 +372,6 @@ section {
     flex: none;
     display: block;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
