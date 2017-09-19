@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'open sansbold';
+    src: url('..//fonts/open_sans_bold/opensans-bold-webfont.woff2') format('woff2'),
+         url('..//fonts/open_sans_bold/opensans-bold-webfont.woff') format('woff'),
+         url('..//fonts/open_sans_bold/OpenSans-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 1200px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.header__wrapper {
+	background-color: #53545e;
+}
+
+.header__logo {
+	float: left;
+	position: relative;
+}
+
+.header__block-right {
+	float: right;
+}
+
+.header__wrapper::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.logotype {
+	font-size: 0;
+}
+
+.logo-triangle1 {
+	position: absolute;
+	border: 26px solid transparent;
+	border-top: 35px solid #fff;
+	font-size: 0;
+	left: 5px;
+	top: 32px;
+	z-index: 3;
+}
+
+.logo-triangle2 {
+	position: absolute;
+	border: 21px solid transparent;
+  border-top: 26px solid #a6a7b0;
+  font-size: 0;
+  top: 39px;
+  left: -1px;
+  z-index: 2;
+}
+
+.logo-triangle3 {
+	position: absolute;
+	border: 21px solid transparent;
+  border-top: 26px solid #cacacc;
+  font-size: 0;
+  top: 39px;
+  left: 20px;
+  z-index: 1;
+}
+
+.logotype ~ span {
+	display: inline-block;
+	padding: 35px 0;
+	font-family: "open sansbold", sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.logotype + span {
+	color: #fff;
+	margin-left: 84px;
+}
+
+.logotype ~ span:last-child {
+	color: #a6a7b0;
+}
+
+
+header {
+	background-color: #e1e1e1;
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+
+}
+
+@media (max-width:480px) {
+
+}
